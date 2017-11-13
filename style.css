@@ -1,7 +1,29 @@
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: 'Courgette', Arial;
+  font-style: italic;
+}
+body {
+  font-family: 'Work Sans', Helvetica;
+  color: #000;
+  font-weight: normal;
+}
+h1 {
+  font-size: 30px;
+}
+.main-subtitle {
+  font-size: 20px;
+  font-family: 'Courgette', Arial;
+}
+a {
+  color: #54c693 !important;
+}
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Helvetica', sans-serif;
   font-size: 16px;
 }
 .layout-table {
@@ -21,6 +43,12 @@ body {
 }
 table {
   border-spacing: 0 !important;
+}
+table .content-first {
+  padding: 0 30px;
+}
+table .image-first {
+  padding: 0 30px;
 }
 .img-responsive {
   max-width: 100%;
@@ -53,23 +81,6 @@ table {
 }
 .bordered-bottom {
   border-bottom: 1px solid #333;
-}
-h1,
-h2,
-h3,
-h4,
-h5 {
-  font-family: 'Courgette', cursive;
-}
-h1 {
-  font-size: 30px;
-}
-.main-subtitle {
-  font-size: 20px;
-  font-family: 'Courgette', cursive;
-}
-a {
-  color: #54c693 !important;
 }
 .green {
   color: #54c693;
